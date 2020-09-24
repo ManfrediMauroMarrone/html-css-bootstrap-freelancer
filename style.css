@@ -39,3 +39,56 @@ header{
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
     color: white;
 }
+
+
+.section-start{
+    background-color: #1abc9c
+}
+
+
+.smiling-guy{
+    height: 240px;
+    margin-bottom: 48px;
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+.smiling-guy img{
+    height: 100%;
+}
+.main-title{
+    text-align: center;
+}
+
+.main-title h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.stripe-star::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.stripe{
+    width: 40%;
+    margin-top: 12px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 3px;
+    float: left;
+}
+
+.star-icon{
+    height: 30px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.star-icon i{
+    font-size: 30px;
+    color: white;
+}
