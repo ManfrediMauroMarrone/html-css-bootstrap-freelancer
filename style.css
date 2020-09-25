@@ -7,6 +7,15 @@ h2{
     font-size: 48px;
     font-weight: 700;
 }
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+
+}
 .main{
     padding: 50px 0;
 }
@@ -163,5 +172,23 @@ h2{
 }
 
 .section-about h2{
+    padding-top: 80px;
     color: white;
+}
+
+.about-text{
+    margin: auto;
+}
+
+.about-left{
+    margin-left: 194px;
+    padding: 30px 24px;
+    float: left;
+    width: 33%;
+}
+
+.about-right{
+    padding: 30px 24px;
+    float: left;
+    width: 33%;
 }
