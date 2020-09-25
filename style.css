@@ -2,8 +2,23 @@ header{
     background-color: #2c3e50;
 }
 
+h2{
+    color: #2c3e50;
+    font-size: 48px;
+    font-weight: 700;
+}
+.main{
+    padding: 50px 0;
+}
+
 .container{
     border: 0;
+}
+
+.row-top::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .navbar{
@@ -42,7 +57,8 @@ header{
 
 
 .section-start{
-    background-color: #1abc9c
+    background-color: #1abc9c;
+    text-align: center;
 }
 
 
@@ -50,15 +66,11 @@ header{
     height: 240px;
     margin-top: 100px;
     margin-bottom: 48px;
-    text-align: center;
     background-color: #1abc9c;
 }
 
 .smiling-guy img{
     height: 100%;
-}
-.main-title{
-    text-align: center;
 }
 
 .main-title h1{
@@ -67,31 +79,30 @@ header{
     font-weight: 700;
 }
 
-.stripe-star::after{
+.line-star{
+    display: inline-block;
+    margin: auto;
+}
+
+.line-star::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.stripe{
-    width: 40%;
-    margin-top: 12px;
-    background-color: red;
-    border: 2px solid white;
-    border-radius: 3px;
-    float: left;
-}
-
-.star-icon{
-    height: 30px;
-    width: 20%;
-    float: left;
-    text-align: center;
-}
-
-.star-icon i{
+.line-star i{
     font-size: 30px;
+    padding: 0 10px;
     color: white;
+    float: left;
+}
+
+
+.line{
+    width: 100px;
+    margin-top: 14px;
+    border: 2px solid white;
+    float: left;
 }
 
 .titles{
@@ -100,5 +111,57 @@ header{
     text-align: center;
     font-size: 24px;
     font-weight: 300;
+    color: white;
+}
+
+.section-portfolio{
+    padding: 65px;
+    background-color: white;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.line-star-dark{
+    display: inline-block;
+    margin: auto;
+}
+
+.line-star-dark::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.line-star-dark i{
+    font-size: 30px;
+    padding: 0 10px;
+    color: #2c3e50;
+    float: left;
+}
+
+
+.line-dark{
+    width: 100px;
+    margin-top: 14px;
+    border: 2px solid #2c3e50;
+    float: left;
+}
+.img-portfolio{
+    max-width: 380px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.img-portfolio img{
+    border-radius: 10px;
+    width: 100%;
+}
+                                /* about----------- */
+.section-about{
+    background-color: #1abc9c;
+    text-align: center;
+}
+
+.section-about h2{
     color: white;
 }
