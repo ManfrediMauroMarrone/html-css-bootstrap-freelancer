@@ -208,3 +208,37 @@ p{
 .btn i{
     padding-right: 10px;
 }
+                            /* Contact----------- */
+.section-contact{
+    padding: 80px 0;
+    text-align: center;
+}
+.contact-form{
+    max-width: 790px;
+    margin: auto;
+    text-align: left;
+}
+
+.credentials{
+    border-bottom: 1px solid lightgrey;
+}
+
+.message{
+    padding-bottom: 200px;
+    border-bottom: 1px solid lightgrey;
+}
+
+input{
+    padding: 30px 0;
+    font-size: 24px;
+    border: none;
+}
+
+.form-button{
+    padding-top: 20px;
+}
+
+.form-button button:hover{
+    background-color: #159a80;
+    color: white;
+}
